@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: black;
+
+        }
+        div{
+            height: 200px;
+            width: 200px;
+            border: 2px solid ;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;
+            border-radius: 25px;
+            color: aqua;
+            box-shadow: 5px 5px 10px rgb(0, 255, 149), -5px -5px 10px ;
+            animation-name: Cool;
+            animation-duration: 4s;
+            animation-fill-mode: backwards;
+
+        }
+        p{text-shadow: 10px 10px 10px aqua, -10px -10px 10px aqua;
+
+        }
+        @keyframes Cool {
+            0%{}
+
+            25%{background-color: aqua;
+                scale: 1;}
+
+            50%{opacity:25%}
+
+            75%{
+                scale: 1;}
+
+            100%{
+                scale: 2;
+                border-radius: 50px;
+                transform: rotate(360deg);
+
+            }
+            
+        }
+
+
+    </style>
+</head>
+<body>
+    <div><p>Hello</p></div>
+    
+</body>
+</html>

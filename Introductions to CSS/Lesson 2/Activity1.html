@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh
+        }
+
+        div {
+            height: 200px;
+            width: 200px;
+            background-color: orange;
+            animation-name: AnimateCSs ;
+            animation-duration: 4s;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 30px;
+            font-family: sans-serif;
+            animation-fill-mode: forwards;
+            border: 30px;
+            
+
+        }
+        @keyframes AnimateCSs {
+            0%{
+
+            }
+            25%{background-color: rgb(42, 165, 114);
+
+            }
+            50%{background-color: aqua;
+                opacity: 0%;
+
+            }
+            75%{scale: 2;
+                background-color: red;
+
+            }
+            100%{transform: rotate(360deg);
+                border-radius: 50%;
+                scale: 2;
+                background-color: rgb(41, 150, 201);
+
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div><b>Moheathraam</b></div>
+
+</body>
+
+</html>
