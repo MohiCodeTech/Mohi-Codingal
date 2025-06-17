@@ -23,7 +23,7 @@ while(count <= 10){
 
 //Swithes and cases!
 
-let day = prompt("Enter Your day!: ");
+let day = "friday";
 
 switch(day){
     case  "monday":

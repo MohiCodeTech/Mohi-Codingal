@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            font-family: sans-serif;
+        }
+       
+    </style>
+</head>
+
+<body>
+    <center>
+        <h1>
+            Login Page
+        </h1>
+        <hr>
+        <br>
+        Enter your name: <br><br><input type="text" id="first"><br><br>
+        <button onclick="Greet()">Submit</button>
+        <h2 id="Result"></h2>
+    </center>
+
+    <script>
+        function Greet() {
+            var Name = document.getElementById("first").value;
+            document.getElementById("Result").innerHTML = Name + " Login Affirmed"
+        }
+    </script>
+</body>
+
+</html>
