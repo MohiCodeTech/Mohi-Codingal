@@ -1,25 +1,25 @@
-# #Use of destructor and constructor
-# class birds():
-#     def __init__(self, name):
-#         self.name = name
-#         print(f"{self.name}'s object has been created")
-#     def fly(self):
-#         print(f"{self.name} is flying")
-#     def sound(self):
-#         print(f"{self.name} is chirping")
-#     def __del__(self):
-#         print(f"{self.name}'s object has now been deleted")
+#Use of destructor and constructor
+class birds():
+    def __init__(self, name):
+        self.name = name
+        print(f"{self.name}'s object has been created")
+    def fly(self):
+        print(f"{self.name} is flying")
+    def sound(self):
+        print(f"{self.name} is chirping")
+    def __del__(self):
+        print(f"{self.name}'s object has now been deleted")
 
-# parrot = birds("Tomhawk")
-# parrot.fly()
-# parrot.sound()
+parrot = birds("Tomhawk")
+parrot.fly()
+parrot.sound()
 
-# peacock = birds("bingo")
-# peacock.fly()
-# parrot.sound()
+peacock = birds("bingo")
+peacock.fly()
+parrot.sound()
 
-# del parrot
-# del peacock
+del parrot
+del peacock
 
 class students():
     def __init__(self, name, age, grade):
